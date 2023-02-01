@@ -4,6 +4,7 @@ import About from "../../Pages/About/About";
 import Cart from "../../Pages/Cart/Cart";
 import Home from "../../Pages/Home/Home";
 import TopRated from "../../Pages/TopRated/TopRated";
+import Wishlist from "../../Pages/Wishlist/Wishlist";
 
 
 const routes = createBrowserRouter([
@@ -14,6 +15,10 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/wishlist",
+        element: <Wishlist />,
       },
       {
         path: "/about",
